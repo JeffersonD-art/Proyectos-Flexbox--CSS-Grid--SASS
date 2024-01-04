@@ -11,6 +11,11 @@ a {
   font-weight: 600;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .nombre-sitio {
   text-align: center;
   margin: 50px 0;
@@ -35,4 +40,36 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+/* categorias */
+
+.categorias {
+  & h2 {
+    text-align: center;
+  }
+}
+
+.categoria {
+  & span {
+    margin: 0;
+    display: block;
+    text-align: center;
+    background: #037bc01e;
+    font-size: 20px;
+    padding: 16px;
+    transition: all 0.5s ease;
+    border-radius: 0 0 10px 10px;
+  }
+
+  &:hover span {
+    color: white;
+    background: #024c8c;
+  }
+}
+
+.listado-categorias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
