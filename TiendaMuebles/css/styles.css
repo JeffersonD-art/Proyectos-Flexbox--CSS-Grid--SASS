@@ -51,9 +51,11 @@ img {
   text-transform: uppercase;
   transition: background-color 0.3s ease;
   margin-top: 2rem;
+  border: none;
 
   &:hover {
     background-color: rgb(16, 109, 16);
+    cursor: pointer;
   }
 }
 
