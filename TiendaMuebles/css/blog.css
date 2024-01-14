@@ -1,0 +1,36 @@
+.contenedor-blog {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 4rem;
+
+  .entrada {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 4rem;
+  }
+
+  .entrada:last-child {
+    border: none;
+  }
+
+  .btn-blog {
+    max-width: 30rem;
+  }
+}
+.entrada-meta {
+  display: flex;
+  justify-content: space-between;
+
+  & p {
+    font-weight: 700;
+  }
+
+  & span {
+    font-weight: 900;
+    color: #037bc0;
+  }
+}
+
+.contenido-entrada-blog {
+  width: 60rem;
+  margin: 0 auto;
+}
