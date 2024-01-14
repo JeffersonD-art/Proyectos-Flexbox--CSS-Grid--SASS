@@ -40,6 +40,23 @@ img {
   display: block;
 }
 
+.btn {
+  background-color: rgb(24, 184, 24);
+  font-weight: 900;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 1rem 0;
+  color: white;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  margin-top: 2rem;
+
+  &:hover {
+    background-color: rgb(16, 109, 16);
+  }
+}
+
 .nombre-sitio {
   text-align: center;
   margin-top: 5rem;
@@ -151,22 +168,6 @@ img {
         font-weight: 900;
         font-size: 2.8rem;
         margin: 0;
-      }
-
-      & .btn {
-        background-color: rgb(24, 184, 24);
-        font-weight: 900;
-        display: inline-block;
-        width: 100%;
-        padding: 1rem 0;
-        color: white;
-        text-transform: uppercase;
-        transition: background-color 0.3s ease;
-        margin-top: 2rem;
-
-        &:hover {
-          background-color: rgb(16, 109, 16);
-        }
       }
     }
   }
